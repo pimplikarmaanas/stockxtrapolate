@@ -17,3 +17,9 @@ The locations for the training and testing files need to be in a tuple.
 3. createModel: Takes in the training arrays returned in "updateTrainingData". If the class object is initialized with load=True, loads that model. Else, creates a Sequential object with the given parameters. If the class is initialized with save=True, saves the model. It then returns the model created/loaded.
 4. testData: Uses the testing file that the class was initializd with and the model returned in the "createModel" function to test the model. Calls the "plot" method to plot the original prices from the test file and the predicted prices that were obtained from using the model.
 5. plot: Explained above.
+
+The uploaded code uses the "AAPLTraining.csv" as the training file and "AAPL.csv" as the testing file. To use other files, the main method needs to be changed to accomodate for the new files.
+
+The tuples to add the locations of the training and testing files need to be in the following format:
+
+(LOCATION OF THE CSV FILE, COLUMN # FOR THE OPENING PRICE (0-Indexed))
