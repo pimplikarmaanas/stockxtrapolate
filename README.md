@@ -1,4 +1,4 @@
-# stockxtrapolate
+# StockXtrapolate
 
 StockXtra object can take 5 parameters:
 1. train - tuple containing the location of the training file and the column for the opening prices (0-indexed). (required)
